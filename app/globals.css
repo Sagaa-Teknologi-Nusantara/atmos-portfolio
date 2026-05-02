@@ -17,6 +17,10 @@
   --hairline: rgba(128, 24, 23, 0.18);
   --paper: #f2ece0;
   --ink-editorial: #14141a;
+  --canvas: #fafaf9;
+  --slate: #0f172a;
+  --slate-soft: #475569;
+  --rule: #e7e5e4;
 }
 
 @theme inline {
@@ -39,6 +43,10 @@
   --font-mono: var(--font-mono);
   --color-paper: var(--paper);
   --color-ink-editorial: var(--ink-editorial);
+  --color-canvas: var(--canvas);
+  --color-slate: var(--slate);
+  --color-slate-soft: var(--slate-soft);
+  --color-rule: var(--rule);
 }
 
 html {
