@@ -21,6 +21,10 @@
   --slate: #0f172a;
   --slate-soft: #475569;
   --rule: #e7e5e4;
+  --swiss-white: #ffffff;
+  --swiss-black: #0a0a0a;
+  --swiss-gray: #71717a;
+  --swiss-rule: #d4d4d8;
 }
 
 @theme inline {
@@ -47,6 +51,10 @@
   --color-slate: var(--slate);
   --color-slate-soft: var(--slate-soft);
   --color-rule: var(--rule);
+  --color-swiss-white: var(--swiss-white);
+  --color-swiss-black: var(--swiss-black);
+  --color-swiss-gray: var(--swiss-gray);
+  --color-swiss-rule: var(--swiss-rule);
 }
 
 html {

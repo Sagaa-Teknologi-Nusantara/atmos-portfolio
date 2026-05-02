@@ -7,6 +7,7 @@ const designs = [
   { label: "01", href: "/" },
   { label: "02", href: "/design-2" },
   { label: "03", href: "/design-3" },
+  { label: "04", href: "/design-4" },
 ];
 
 type Surface = "dark" | "light";
