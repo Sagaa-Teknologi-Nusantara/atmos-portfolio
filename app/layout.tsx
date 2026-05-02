@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Cormorant_Garamond, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -13,6 +13,13 @@ const sans = Inter({
   variable: "--font-sans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
+  display: "swap",
+});
+
+const mono = IBM_Plex_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  weight: ["400", "500"],
   display: "swap",
 });
 
@@ -36,7 +43,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${serif.variable} ${sans.variable} h-full scroll-smooth antialiased`}
+      className={`${serif.variable} ${sans.variable} ${mono.variable} h-full scroll-smooth antialiased`}
     >
       <body className="min-h-full flex flex-col bg-ivory text-charcoal font-sans">
         {children}

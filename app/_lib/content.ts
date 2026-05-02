@@ -244,4 +244,20 @@ export const content = {
   },
 };
 
+export const editorial = {
+  issueLabel: "Monograph Issue I",
+  issueRoman: "I",
+  publicationYear: "MMXXVI",
+  dateline: "Jakarta · May MMXXVI",
+  sections: {
+    lead: { n: "§ LEAD", title: "Lead" },
+    editorsNote: { n: "§ II", title: "From the Editor\u2019s Desk" },
+    contents: { n: "§ III", title: "Contents / Practice" },
+    contributors: { n: "§ IV", title: "Contributors" },
+    features: { n: "§ V", title: "On the Desk" },
+  },
+  contributorBlurbPrefix: "On this issue:",
+  setIn: "Set in Cormorant Garamond, Inter & IBM Plex Mono.",
+};
+
 export type Content = typeof content;
