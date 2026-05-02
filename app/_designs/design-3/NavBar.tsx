@@ -16,6 +16,7 @@ export default function NavBar() {
             { href: "#practice", label: "Practice" },
             { href: "#team", label: "Team" },
             { href: "#insights", label: "Insights" },
+            { href: "#contact", label: "Contact" },
           ].map((l) => (
             <a
               key={l.href}

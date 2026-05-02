@@ -8,7 +8,7 @@ export default function Hero() {
     { value: "15+", label: "Years" },
     { value: "200+", label: "Clients" },
     { value: "8", label: "Industries" },
-    { value: "100%", label: "Commitment" },
+    { value: "50+", label: "Mandates" },
   ];
 
   return (
@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <span className="mb-6 block text-xs font-medium tracking-[0.25em] text-slate-soft">
-              01 — {hero.eyebrow}
+              01 — Counsel
             </span>
 
             <h1 className="mb-6 text-5xl/[1.05] font-medium tracking-tight text-slate md:text-7xl/[1.0]">
